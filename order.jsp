@@ -254,7 +254,7 @@ catch(Exception e){
                 <li><a href="team.jsp" class="tablinks">創作團隊</a></li>
                   </ul>  
               </li>
-              <li><a href="board.jsp">留言板</a></li>
+
                  <!-- 登入後改成member.jsp、登入前改成login+join.jsp-->
               <%                  
                 if(!id.equals(""))
@@ -277,6 +277,8 @@ out.println("hi，"+id+"，"+"<a href='logout.jsp'>logout</a>");
 
 		
 	%>
+				
+			<li><a href="#masthead" >回頂部</a></li>	
 
     			</ul>
   			</nav>
