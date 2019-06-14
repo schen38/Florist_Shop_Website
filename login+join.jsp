@@ -57,7 +57,7 @@ while(paperrs1.next()){
 		</header>
 	</center>
 
-	<div class="bian" style="height:90%;max-height:100%;">
+	<div class="bian" style="height:90%;max-height:100%;padding-top:150px;">
 		<div style="background-color: black;color:white;">
 			<div style="width:50%;margin:0 auto;text-align:center">
 
