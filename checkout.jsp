@@ -1,6 +1,6 @@
 ﻿<%@ page import = "java.sql.*, java.util.*"%>
-<%@ page language="java" contentType="text/html; charset=utf-8"
-pageEncoding="utf-8"%>
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+pageEncoding="UTF-8"%>
 
 
 
@@ -22,6 +22,8 @@ pageEncoding="utf-8"%>
 	<link rel="stylesheet" type="text/css" href="css/products.css" >
 	<link rel="stylesheet" href="css/index.css" type="text/css" media="screen">
 	<link rel="stylesheet" href="css/cart.css" type="text/css" media="screen">
+	<link href="css/all.css" rel="stylesheet">
+	<script defer src="js/all.js"></script>
 	<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 	<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
@@ -170,8 +172,12 @@ out.println("hi，"+id+"，"+"<a href='logout.jsp'>logout</a>");
 
 		
 	%>
-
-		<li><a href="#masthead" >回頂部</a></li>
+			
+			<li><a href=""><i class="fab fa-twitter"></i></a></li>
+			<li><a href=""><i class="fab fa-facebook"></i></a></li>
+			<li><a href=""><i class="fab fa-line"></i></a></li>
+			<li><a href="#masthead" >回頂部</a></li>
+			
     			</ul>
   			</nav>
 		</section>   
@@ -273,8 +279,12 @@ out.println("hi，"+id+"，"+"<a href='logout.jsp'>logout</a>");
 </div>
 
 	<footer>	
-		<div>
-			<span>聯絡我們: <a href="">email</a></br></span>
+		<div style="color:black;font-weight: 600; font-family:Microsoft JhengHei;font-size: 20px;">
+			<%@include file="counter.jsp" %> <!-- 訪客人數-->
+			      <span>聯絡我們: <a href="" style="color:black;font-weight: 600; font-family:Microsoft JhengHei;font-size: 20px;">email</a></br>
+	  電話  ：+886-3-265-9999
+	  地址  ：桃園市中壢區中北路200號
+	  </span>
 			<h4>Copyright © 2019 Simply Blessed Flower Store. All rights reserved</h4>
 		</div>
 	</footer>

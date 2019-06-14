@@ -42,6 +42,8 @@ while(paperrs1.next()){
     <!--初學者範本,請不要誤刪！！！-->
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+	<link href="css/all.css" rel="stylesheet">
+	<script defer src="js/all.js"></script>
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous"></script>
@@ -65,7 +67,7 @@ while(paperrs1.next()){
 		  	<div class="col-4">
 		  		<img src="img/shenghua.jpg" class="teamimg">
 		  	</div>
-		    <div class="col-8">詳情</div> 
+		    <div class="col-8" style="font-weight: 600; font-family:Microsoft JhengHei;font-size: 20px;">中原大學資管系<br>班級:資管三乙<br>學號:10544250<br>姓名:陳聖樺</div> 
 		  </div>
 		  <hr>
 
@@ -73,7 +75,7 @@ while(paperrs1.next()){
 		  	<div class="col-4">
 		  		<img src="img/xuanyi.jpg" class="teamimg">
 		  	</div>
-		    <div class="col-8">詳情</div> 
+		    <div class="col-8" style="font-weight: 600; font-family:Microsoft JhengHei;font-size: 20px;">中原大學資管系<br>班級:資管三乙<br>學號:10544270<br>姓名:王璇一</div> 
 		  </div>
 		  <hr>
 
@@ -81,7 +83,7 @@ while(paperrs1.next()){
 		  	<div class="col-4">
 	          <img src="img/xuejie.jpg" class="teamimg ">
 		    </div>
-		    <div class="col-8">詳情</div> 
+		    <div class="col-8" style="font-weight: 600; font-family:Microsoft JhengHei;font-size: 20px;">中原大學資管系<br>班級:資管四甲<br>學號:10444142<br>姓名:陳盈如</div> 
 		  </div>
 		  <hr>
 
@@ -89,15 +91,19 @@ while(paperrs1.next()){
 		  	<div class="col-4">
 	          <img src="img/xuezhang.jpg" class="teamimg ">
 		    </div>
-		    <div class="col-8">詳情</div> 
+		    <div class="col-8" style="font-weight: 600; font-family:Microsoft JhengHei;font-size: 20px;">中原大學資管系<br>班級:資管四甲<br>學號:10425274<br>姓名:譚皓仁</div> 
 		  </div>
 		</div>
 		
 	</div>
 
   <footer>  
-    <div>
-      <span>聯絡我們: <a href="">email</a></br></span>
+    <div  style="color:black;font-weight: 600; font-family:Microsoft JhengHei;font-size: 20px;">
+		<%@include file="counter.jsp" %> <!-- 訪客人數-->
+            <span>聯絡我們: <a href="" style="color:black;font-weight: 600; font-family:Microsoft JhengHei;font-size: 20px;">email</a></br>
+	  電話  ：+886-3-265-9999
+	  地址  ：桃園市中壢區中北路200號
+	  </span>
       <h4>Copyright © 2019 Simply Blessed Flower Store. All rights reserved</h4>
     </div>
   </footer>

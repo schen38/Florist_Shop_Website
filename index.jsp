@@ -32,6 +32,8 @@ while(paperrs1.next()){
 		<link rel="stylesheet" href="css/index.css" type="text/css" media="screen">
 		<link rel="stylesheet" href="css/index2.css" type="text/css" media="screen">
 		<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+		<link href="css/all.css" rel="stylesheet">
+	<script defer src="js/all.js"></script>
 		<link rel="stylesheet" type="text/css" href="css/component.css" >
 		<script src="js/modernizr.custom.js"></script>
 		<script src="js/index2.js" type="text/javascript" charset="utf-8" async defer></script>
@@ -128,7 +130,7 @@ while(paperrs1.next()){
 
         <!--商品目录-->
  	 	<div id="wrapper">
- 	 	<div class="products"><a name="products" id="products"></a>
+ 	 	<div class="products" style="height: 100%;max-height:100%;"><a name="products" id="products"></a>
  			<h1><img src="img/seriors.png" class="int"></h1>
  		<div class="tab">
   			<button class="tablinks" onclick="openCity(event, 'White')" id="defaultOpen">白色系</button>
@@ -436,10 +438,13 @@ while(paperrs1.next()){
 	</div>
 	<div style="clear: both"></div>
 
-	<footer>	
-		<div>
+	<footer style="margin-top:130px;">	
+		<div style="color:black;font-weight: 600; font-family:Microsoft JhengHei;font-size: 20px;">
 		     <%@include file="counter.jsp" %> <!-- 訪客人數-->
-			<span>聯絡我們: <a href="">email</a></br></span>
+			      <span>聯絡我們: <a href="" style="color:black;font-weight: 600; font-family:Microsoft JhengHei;font-size: 20px;">email</a></br>
+	  電話  ：+886-3-265-9999
+	  地址  ：桃園市中壢區中北路200號
+	  </span>
 			<h4>Copyright © 2019 Simply Blessed Flower Store. All rights reserved</h4>
 		</div>
 	</footer>

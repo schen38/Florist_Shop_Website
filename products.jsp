@@ -29,6 +29,8 @@ while(paperrs1.next()){
 	<link rel="stylesheet" type="text/css" href="css/products.css" >
 	<link rel="stylesheet" href="css/index.css" type="text/css" media="screen">
 	<link rel="stylesheet" href="css/cart.css" type="text/css" media="screen">
+	<link href="css/all.css" rel="stylesheet">
+	<script defer src="js/all.js"></script>
 	<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 	<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
@@ -93,7 +95,7 @@ while(paperrs1.next()){
 							
 							<img src="<%=rs.getString(2)%>"></img>
 						</div>
-						<div class="product-description" data-name="<%=rs.getString(3)%>" data-price="5">
+						<div class="product-description" data-name="<%=rs.getString(3)%>" data-price="<%=rs.getString(4)%>">
 							<h3 class="product-name"><%=rs.getString(3)%></h3>
 							<p class="product-price">NTD$<%=rs.getString(4)%></p>
 							
@@ -150,9 +152,9 @@ while(paperrs1.next()){
 				
 				<img src="<%=rs.getString(2)%>"></img>
 			</div>
-			<div class="product-description" data-name="<%=rs.getString(3)%>" data-price="5">
+			<div class="product-description" data-name="<%=rs.getString(3)%>" data-price="<%=rs.getString(4)%>">
 				<h3 class="product-name"><%=rs.getString(3)%></h3>
-				<p class="product-price"><%=rs.getString(4)%></p>
+				<p class="product-price">NTD$<%=rs.getString(4)%></p>
 				
 				<form class="add-to-cart" action="cart.jsp" method="post">
 					<div>
@@ -204,9 +206,9 @@ try
 			
 			<img src="<%=rs.getString(2)%>"></img>
 		</div>
-		<div class="product-description" data-name="<%=rs.getString(3)%>" data-price="5">
+		<div class="product-description" data-name="<%=rs.getString(3)%>" data-price="<%=rs.getString(4)%>">
 			<h3 class="product-name"><%=rs.getString(3)%></h3>
-			<p class="product-price"><%=rs.getString(4)%></p>
+			<p class="product-price">NTD$<%=rs.getString(4)%></p>
 			
 			<form class="add-to-cart" action="cart.jsp" method="post">
 				<div>
@@ -258,9 +260,9 @@ try
 			
 			<img src="<%=rs.getString(2)%>"></img>
 		</div>
-		<div class="product-description" data-name="<%=rs.getString(3)%>" data-price="5">
+		<div class="product-description" data-name="<%=rs.getString(3)%>" data-price="<%=rs.getString(4)%>">
 			<h3 class="product-name"><%=rs.getString(3)%></h3>
-			<p class="product-price"><%=rs.getString(4)%></p>
+			<p class="product-price">NTD$<%=rs.getString(4)%></p>
 			
 			<form class="add-to-cart" action="cart.jsp" method="post">
 				<div>
@@ -311,9 +313,9 @@ try
 			
 			<img src="<%=rs.getString(2)%>"></img>
 		</div>
-		<div class="product-description" data-name="<%=rs.getString(3)%>" data-price="5">
+		<div class="product-description" data-name="<%=rs.getString(3)%>" data-price="<%=rs.getString(4)%>">
 			<h3 class="product-name"><%=rs.getString(3)%></h3>
-			<p class="product-price"><%=rs.getString(4)%></p>
+			<p class="product-price">NTD$<%=rs.getString(4)%></p>
 			
 			<form class="add-to-cart" action="cart.jsp" method="post">
 				<div>
@@ -347,9 +349,12 @@ catch (SQLException sExec)
 </div>
 </div>
 	<footer>	
-		<div>
+		<div  style="color:black;font-weight: 600; font-family:Microsoft JhengHei;font-size: 20px;">
 		     <%@include file="counter.jsp" %> <!-- 訪客人數-->
-			<span>聯絡我們: <a href="">email</a></br></span>
+			      <span>聯絡我們: <a href="" style="color:black;font-weight: 600; font-family:Microsoft JhengHei;font-size: 20px;">email</a></br>
+	  電話  ：+886-3-265-9999
+	  地址  ：桃園市中壢區中北路200號
+	  </span>
 			<h4>Copyright © 2019 Simply Blessed Flower Store. All rights reserved</h4>
 		</div>
 	</footer>

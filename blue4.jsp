@@ -76,17 +76,17 @@ while(paperrs1.next()){
     <div id="products">
       <!--白色系-->
       <ul >
-        <li id="purple">
+        <li>
 					<div class="product-image">
-						<img src="flowers/purple01.jpg" alt="" />
+						<img src="flowers/blue04.jpg" alt="" />
 					</div>
-					<div class="product-description" data-name="溫暖·模樣" data-price="350">
-						<h3 class="product-name">溫暖·模樣</h3>
+					<div class="product-description" data-name="年少·如初" data-price="350">
+						<h3 class="product-name">年少·如初</h3>
 						<p class="product-price">NTD$350</p>
 						<form class="add-to-cart" action="cart.jsp" method="post">
 							<div>
-								<label for="qty-1">數量</label>
-								<input type="text" name="qty-1" id="qty-1" class="qty" value="1" />
+								<label for="qty-4">數量</label>
+								<input type="text" name="qty-4" id="qty-4" class="qty" value="1" />
 							</div>
 							<p><input type="submit" value="加入購物車" class="btn" /></p>
 						</form>
@@ -95,9 +95,8 @@ while(paperrs1.next()){
       </ul>
     </div>
     <div class="describe">
-      <h1>溫暖·模樣</h1>
-                <h2>我愛你，不光是因為你的樣子.</h2>
-                <h2>還因為和你在一起時，我的樣子。</h2>
+      <h1>年少·如初</h1>
+                <h2>我只願你眉眼如故，歲月如初。</h2>
                 <hr>
                 <div align="left">
                 <h2>商品詳情</h2>
@@ -105,7 +104,7 @@ while(paperrs1.next()){
                 <h3>鮮花規格(直徑X高):50*60</h3>
                 <h3>鮮花朵數:其他</h3>
                 <h3>適用節日:情人節、耶誕節、3.8婦女節、母親節、教師節、七夕……</h3>
-                <h3>貨號:PU01</h3>
+                <h3>貨號:B04</h3>
                 <h3>是否含花瓶:不含花瓶</h3>
                 <h3>適用場景:愛意表達、生日探望、求婚友情、周年紀念……</h3>
                 <h3>適用對象:愛人、老師、客戶、領導、長輩、朋友、同事</h3>

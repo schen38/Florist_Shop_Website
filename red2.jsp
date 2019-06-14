@@ -79,9 +79,9 @@ while(paperrs1.next()){
 			<div class="product-image">
 				<img src="flowers/red02.jpg" alt="" />
 			</div>
-			<div class="product-description" data-name="唯此·珍惜" data-price="8">
+			<div class="product-description" data-name="唯此·珍惜" data-price="350">
 				<h3 class="product-name">唯此·珍惜</h3>
-				<p class="product-price">NTD$8</p>
+				<p class="product-price">NTD$350</p>
 				<form class="add-to-cart" action="cart.jsp" method="post">
 					<div>
 						<label for="qty-2">數量</label>

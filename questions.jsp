@@ -33,6 +33,8 @@ while(paperrs1.next()){
     <script src="js/modernizr.custom.js"></script>
     <script src="js/index2.js" type="text/javascript" charset="utf-8" async defer></script>
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<link href="css/all.css" rel="stylesheet">
+	<script defer src="js/all.js"></script>
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
     <title>常見問題</title>
@@ -61,34 +63,34 @@ while(paperrs1.next()){
     <div class="col-8">
     	<table class="table table-borderless">
 	        <tr>
-	            <th scope="row"><h4>問題1：如何付款？</h4></th>
+	            <th scope="row"><h4>問題1：官網如何付款？</h4></th>
 	        </tr>   
 	        <tr>
-	            <td><h4>回答：我們採用貨到付款的方式。</h4></td>
+	            <td><h5>我們採用貨到付款的方式。</h5></td>
 	        </tr> 
 	        <tr>
-	            <th scope="row"><h4>問題2：</h4></th>
+	            <th scope="row"><h4>問題2：如何取消或更改官網訂單？</h4></th>
 	        </tr>   
 	        <tr>
-	            <td><h4>回答：</h4></td>
+	            <td><h5>請於出貨前一日來電告知</h5></td>
 	        </tr>
 	        <tr>
-	            <th scope="row"><h4>問題3：</h4></th>
+	            <th scope="row"><h4>問題3：我可以指定送達時間嗎？</h4></th>
 	        </tr>   
 	        <tr>
-	            <td><h4>回答：</h4></td>
+	            <td><h5>您可以指定配送時段：9-13時、13-17時、17-20時。 其他如活動典禮、求訂婚會場花卉等等大量訂單需求，可來電詢問由專員為您服務。</h5></td>
 	        </tr>
 	        <tr>
-	            <th scope="row"><h4>問題4：</h4></th>
+	            <th scope="row"><h4>問題4：我想依自己喜歡的花材及預算搭配花禮配送可以嗎？</h4></th>
 	        </tr>   
 	        <tr>
-	            <td><h4>回答：</h4></td>
+	            <td><h5>可以的。歡迎來電或E-MAIL告訴我們您的需求，由設計師為您量身訂製花禮。</h5></td>
 	        </tr>
 	        <tr>
-	            <th scope="row"><h4>問題5：</h4></th>
+	            <th scope="row"><h4>問題5：我的訂單將會如何運送？</h4></th>
 	        </tr>   
 	        <tr>
-	            <td><h4>回答：</h4></td>
+	            <td><h5>我們將花禮做好含水包裝及保護，並全程低溫冷藏配送，保持花的完整及新鮮度。</h5></td>
 	        </tr>                       
 	    </table>
     </div>
@@ -100,8 +102,12 @@ while(paperrs1.next()){
 
 
   <footer>  
-    <div>
-      <span>聯絡我們: <a href="">email</a></br></span>
+    <div  style="color:black;font-weight: 600; font-family:Microsoft JhengHei;font-size: 20px;">
+		<%@include file="counter.jsp" %> <!-- 訪客人數-->
+            <span>聯絡我們: <a href="" style="color:black;font-weight: 600; font-family:Microsoft JhengHei;font-size: 20px;">email</a></br>
+	  電話  ：+886-3-265-9999
+	  地址  ：桃園市中壢區中北路200號
+	  </span>
       <h4>Copyright © 2019 Simply Blessed Flower Store. All rights reserved</h4>
     </div>
   </footer>

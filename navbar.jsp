@@ -1,5 +1,10 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8"
 pageEncoding="UTF-8"%>
+
+<link rel="stylesheet" href="css/index.css" type="text/css" media="screen">
+<link href="css/all.css" rel="stylesheet">
+	<script defer src="js/all.js"></script>
+
 <div style="color: rgba(0, 0, 0, 0.5);" scroll="no">
 <section style="color: rgba(0, 0, 0, 0.5);" scroll="no">
   			<nav class="shift" scroll="no">
@@ -51,7 +56,7 @@ pageEncoding="UTF-8"%>
                     </ul>
                     </li>
                     <li><a href="products.jsp#purple" >紫色系</a>
-                    <ul style=" color: rgba(0, 0, 0, 0.5);">
+                    <ul style=" width:90px;color: rgba(0, 0, 0, 0.5);">
                   <li><a href="purple1.jsp" >溫暖·模樣</a></li>
                   <li><a href="purple2.jsp" >繁花·似錦</a></li>
                   <li><a href="purple3.jsp" >暖陽·盛開</a></li>
@@ -62,7 +67,7 @@ pageEncoding="UTF-8"%>
                     </li>
                   </ul>  
                 </li> 
-              <li><a href="#contact">關於我們</a>
+              <li><a href="">關於我們</a>
                 <ul style="background: #FFE4B5; color: rgba(0, 0, 0, 0.5);">
                   <li><a href="store.jsp" class="tablinks">品牌故事&店家資訊</a></li>
                 <li><a href="questions.jsp" class="tablinks">常見問題</a></li>
@@ -85,14 +90,19 @@ pageEncoding="UTF-8"%>
               <li><a href="cart.jsp" >購物車</a></li>
               <li><a href="checkout.jsp" >付款</a></li>
 			  <li><a href="admin.jsp" >管理者登入</a></li>
+
 			  <%
 if(!id.equals(""))
-out.println("hi，"+id+"，"+"<a href='logout.jsp'>logout</a>");
+out.println("hi，"+id+"，"+"<a href='logout.jsp' style='color:black'>logout</a>");
 
 		
 	%>
+	
 
-			<li><a href="#masthead" >回頂部</a></li>	
+			<li><a href=""><i class="fab fa-twitter"></i></a></li>
+			<li><a href=""><i class="fab fa-facebook"></i></a></li>
+			<li><a href=""><i class="fab fa-line"></i></a></li>
+			<li><a href="#masthead" >回頂部</a></li>
     			</ul>
   			</nav>
 		</section>   
