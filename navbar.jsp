@@ -92,6 +92,7 @@ out.println("hi，"+id+"，"+"<a href='logout.jsp'>logout</a>");
 		
 	%>
 
+			<li><a href="#masthead" >回頂部</a></li>	
     			</ul>
   			</nav>
 		</section>   
