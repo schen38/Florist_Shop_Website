@@ -155,7 +155,6 @@ catch(Exception e){
 		<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
 		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 		<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
-    <script src="js/cart.js" type="text/javascript" charset="utf-8" async defer></script>
 		<title>Products</title>
 		<style type="text/css">
 		html {
