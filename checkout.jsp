@@ -61,9 +61,6 @@ pageEncoding="UTF-8"%>
 		var content= [] ;
 		var values="";
 	</script>
-	<script src="cart.js" type="text/javascript" charset="utf-8" >
-
-	</script>
 
 </head>
 <body background="img/background.jpg" style="height: 100%;max-height:100%;width:100vw;;background: fixed;">
@@ -278,7 +275,7 @@ out.println("hi，"+id+"，"+"<a href='logout.jsp'>logout</a>");
 
 </div>
 
-	<footer>	
+	<footer style="margin-top:300px;">	
 		<div style="color:black;font-weight: 600; font-family:Microsoft JhengHei;font-size: 20px;">
 			<%@include file="counter.jsp" %> <!-- 訪客人數-->
 			      <span>聯絡我們: <a href="" style="color:black;font-weight: 600; font-family:Microsoft JhengHei;font-size: 20px;">email</a></br>

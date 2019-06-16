@@ -101,27 +101,42 @@ while(paperrs1.next()){
     		</div>		
  	 	</div> 
  	 	</div>
+                           <% 
+                    sql="select * from whiteflowers union select *from redflowers  union select *from blueflowers union select *from pinkflowers  union select *from purpleflowers   order by hit desc limit 3";
 
+                           
+		              ResultSet rs5 =con.createStatement().executeQuery(sql);
+rs5.next();
+                                   
+                           %>
  		<!--热销商品-->
  		<div class="top">
  			<h1><img src="img/rexiao.png" class="int"></h1>
  			<div class="w3-card-4" style="width:25%">
  				<div class="crown" style="width:50%; height:60px;"><img src="img/crown.jpg" style="width:50%; height:60px;"></div>
-  				<img src="img/top.jpg" class="toppic" style="width:90%">
+  				<img src="<%=rs5.getString(2)%>" class="toppic" style="width:90%">
     		<div class="w3-container w3-center">
       			<p>蝶舞·翩躚</p>
     		</div>
  	 	</div>
+ 	 	<%
+rs5.next();
+
+ 	 	%>
  	 	 <div class="w3-card-4" style="width:25%">
  	 	 	<div class="crown" style="width:50%; height:60px;"><img src="img/crown.jpg" style="width:50%; height:60px;"></div>
-    		<img src="img/top1.jpg" class="toppic" style="width:90% ">
+    		<img src="<%=rs5.getString(2)%>" class="toppic" style="width:90% ">
     		<div class="w3-container w3-center">
       			<p>今日·限定</p>
     		</div>
  	 	</div>
+ 	 	 	 	<%
+rs5.next();
+
+ 	 	%>
  	 	 <div class="w3-card-4" style="width:25%">
  	 	 	<div class="crown" style="width:50%; height:60px;"><img src="img/crown.jpg" style="width:50%; height:60px;"></div>
-    		<img src="img/top2.jpg" class="toppic"  style="width:90% ">
+    		<img src="<%=rs5.getString(2)%>" class="toppic"  style="width:90% ">
     		<div class="w3-container w3-center">
       			<p>絢爛·時光</p>
     		</div>		
